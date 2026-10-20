@@ -45,3 +45,6 @@ MANIFEST
 
 # Nix build result
 result/
+
+# Rust build
+/target

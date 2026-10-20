@@ -1,0 +1,27 @@
+[package]
+name = "terminal-rain-lightning"
+version = "0.1.0"
+edition = "2021"
+description = "rmaake1's terminal rain and lightning animation, ported to Rust"
+license = "MIT"
+repository = "https://github.com/theasciiverse/terminal-rain-lightning"
+include = ["src/**", "terminal_rain_lightning_assets/sounds/**", "LICENSE", "NOTICE", "README.md", "PATCHES.md"]
+
+[[bin]]
+name = "terminal-rain"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.29"
+fastrand = "2"
+log = "0.4"
+env_logger = "0.11"
+
+[target.'cfg(unix)'.dependencies]
+signal-hook = "0.3"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
