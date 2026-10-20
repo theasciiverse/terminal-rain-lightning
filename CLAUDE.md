@@ -7,7 +7,7 @@ port, `src/main.rs`, binary `terminal-rain`. Upstream history kept to
 credits; keep them whole. Changes in `PATCHES.md`.
 
 - Remotes: `upstream` is github.com/rmaake1/terminal-rain-lightning;
-  `origin` is to be github.com/theasciiverse/terminal-rain-lightning
+  `origin` is github.com/theasciiverse/terminal-rain-lightning
   (private).
 - The port follows the script constant for constant; when upstream
   changes the script, port the change and note it in `PATCHES.md`.
