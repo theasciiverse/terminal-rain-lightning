@@ -1,0 +1,19 @@
+Terminal Rain (terminal-rain-lightning)
+
+Written by rmaake1 (Ryan), 2025 to 2026:
+https://github.com/rmaake1/terminal-rain-lightning
+
+With contributions from:
+- plasma (xXBlackPlasmaXx): the slow-motion speed (pull request #7)
+- Nihal Kumar (nihalxkumar): the Arch AUR package and its install notes
+  (pull request #5)
+- the rain and thunder sounds: contributed in pull request #1, described
+  there as Pixabay sound effects (Pixabay Content License); rmaake1 cut the
+  rain loop and made the thunder variants from them
+  (terminal_rain_lightning_assets/sounds/ASSETS.md)
+
+The program, its look, its keys, its options and its sounds are theirs.
+Asciiverse ported terminal_rain_lightning.py to Rust (src/main.rs) so it
+runs as one binary on Linux, macOS and Windows without Python; the port
+follows the script line by line and is released under the same MIT License
+(LICENSE). The changes are listed in PATCHES.md.
