@@ -59,3 +59,9 @@ Changed:
   sound on and off, volume cycling, all three speeds. Static musl build in
   Alpine; the Windows build cross-compiles (x86_64-pc-windows-gnu) but has
   not been run. macOS not built here.
+
+## Ours
+
+- **How to play it, at the top of README.md.** A short note on installing and
+  starting it with av, or from a release archive; the original text follows
+  unchanged.

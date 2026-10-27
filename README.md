@@ -1,3 +1,16 @@
+> **Play it with Asciiverse.** With [av](https://asciiverse.sh), the Asciiverse
+> client:
+>
+> ```
+> av install terminal-rain-lightning
+> av play terminal-rain-lightning
+> ```
+>
+> Or download the archive for your system from this repository's Releases,
+> unpack it and run `./terminal-rain` (`terminal-rain.exe` on Windows).
+>
+> The original README follows.
+
 # Terminal Rain
 
 A Python script that creates a mesmerizing rain and lightning animation directly in your terminal using the `curses` library.
